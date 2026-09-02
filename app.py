@@ -300,7 +300,7 @@ st.caption("Upload a PC-I to calculate an explainable ATS score and obtain a Gem
 
 with st.sidebar:
     st.header("Settings")
-    model_name = st.text_input("Gemini model", value="gemini-3.5-flash-Lite")
+    model_name = st.text_input("Gemini model", value="Gemini 3.7 Flash")
     st.info(
         "ATS means Appraisal & Technical Scrutiny in this app. It is an internal "
         "screening score, not an official PDWP/DDWP score."
